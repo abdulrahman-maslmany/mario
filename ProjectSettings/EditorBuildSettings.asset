@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 79acfac9f7c26c24cb89f2f447fa1fd2
+  - enabled: 1
+    path: Assets/Scenes/Level10.unity
+    guid: 5b3423bf3c9946145b46b31988a10827
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: f47c649b9f2b8a74cbaf10ac432e73f2
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: a14b9a6b3f57e6b49a2ee41e209efa3e
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 0ad61e1be90e063439fd99f7a33e6c69
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: 092c20ca2867ba848844813dad7b0c81
+  - enabled: 1
+    path: Assets/Scenes/Level6.unity
+    guid: 695aa839528152446867017a3cbeac84
+  - enabled: 1
+    path: Assets/Scenes/Level7.unity
+    guid: 6a5ff39d3e896564782abf28600d11be
+  - enabled: 1
+    path: Assets/Scenes/Level8.unity
+    guid: 945d74e9ffc0ad045b088603415cc687
+  - enabled: 0
+    path: Assets/Scenes/Level9.unity
+    guid: 7335eb53a47e2e0499b53cd527b4b198
+  - enabled: 1
+    path: Assets/Scenes/VictoryScene.unity
+    guid: 6ada81f8d9f0bb84c84908c786bad7af
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 51c4d890c59149c4b90957ad674d6b39, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 6a25c65c07bb705498d1c3339e42659a, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: fd82357d445feb943b3216494a44a4d8, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 47e946a7e2cf70641b1a7db3fac9463b, type: 2}
+  m_UseUCBPForAssetBundles: 0

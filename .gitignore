@@ -1,0 +1,40 @@
+# Unity Temporary & Build Folders
+[L/l]ibrary/
+[T/t]emp/
+[O/o]bj/
+[B/b]uild/
+[B/b]uilds/
+[L/l]ogs/
+[U/u]ser[S/s]ettings/
+.utmp/
+memory/
+
+# Visual Studio & IDE Files
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Android Keys, Secrets & Large Builds
+*.keystore
+*.jks
+*.aab
+*.apk
+*.json
+
+# Flutter specific (inside my_app)
+my_app/.dart_tool/
+my_app/.flutter-plugins
+my_app/.flutter-plugins-dependencies
+my_app/build/

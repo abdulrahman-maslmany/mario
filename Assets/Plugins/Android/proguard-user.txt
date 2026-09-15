@@ -1,0 +1,60 @@
+# ==========================
+# ✅ ProGuard Rules for Unity + AdMob
+# ==========================
+
+# Keep Unity classes
+-keep class com.unity3d.** { *; }
+-keep class com.unityplayer.** { *; }
+-dontwarn com.unity3d.**
+-dontwarn com.unityplayer.**
+
+# Keep Google Ads SDK classes
+-keep class com.google.android.gms.ads.** { *; }
+-keep class com.google.android.gms.common.** { *; }
+-keep class com.google.android.gms.ads.identifier.** { *; }
+-dontwarn com.google.android.gms.**
+
+# Keep Unity Ads SDK classes (if used)
+-keep class com.unity3d.ads.** { *; }
+-dontwarn com.unity3d.ads.**
+
+# Keep AndroidX
+-keep class androidx.** { *; }
+-dontwarn androidx.**
+
+# Keep Firebase if used in project
+-keep class com.google.firebase.** { *; }
+-dontwarn com.google.firebase.**
+
+# Preserve JNI methods (native)
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# Keep Serializable classes
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    !static !transient <fields>;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+
+# Keep enums and parcelables
+-keepclassmembers enum * { *; }
+-keep class * implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+# Ignore warnings from internal generated code
+-dontwarn java.lang.invoke.*
+
+# Prevent shrinking of Unity generated R classes
+-keep class **.R$* { *; }
+-keep class **.R { *; }
+
+# ==========================
+# ✅ End of ProGuard Rules
+# ==========================
