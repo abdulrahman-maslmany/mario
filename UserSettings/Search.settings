@@ -1,0 +1,107 @@
+trackSelection = true
+refreshSearchWindowsInPlayMode = false
+pickerAdvancedUI = false
+fetchPreview = true
+defaultFlags = 264
+keepOpen = false
+queryFolder = "Assets"
+onBoardingDoNotAskAgain = true
+showPackageIndexes = false
+showStatusBar = false
+scopes = {
+	"picker_window_position_offset.075BCD15" = "-2;330;320;550"
+	"picker_visibility_flags.075BCD15" = "264"
+	"picker_item_size.075BCD15" = "96"
+	"picker_inspector.075BCD15" = "0"
+	"last_search.66F56946" = "Google Play Games"
+	"OpenInspectorPreview.66F56946" = "0"
+	"currentGroup.66F56946" = "all"
+	"picker_window_position_offset.00000000" = "119;373;320;550"
+	"picker_visibility_flags.00000000" = "0"
+	"picker_item_size.00000000" = "32"
+	"picker_inspector.00000000" = "0"
+}
+providers = {
+	adb = {
+		active = false
+		priority = 2500
+		defaultAction = null
+	}
+	asset = {
+		active = true
+		priority = 25
+		defaultAction = null
+	}
+	store = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
+	find = {
+		active = true
+		priority = 25
+		defaultAction = null
+	}
+	log = {
+		active = false
+		priority = 210
+		defaultAction = null
+	}
+	packages = {
+		active = true
+		priority = 90
+		defaultAction = null
+	}
+	performance = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
+	profilermarkers = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
+	scene = {
+		active = true
+		priority = 50
+		defaultAction = null
+	}
+	presets_provider = {
+		active = false
+		priority = -10
+		defaultAction = null
+	}
+}
+objectSelectors = {
+}
+recentSearches = [
+	"Google Play Games"
+	"سؤ"
+	"ؤ"
+	"Android Resolver"
+	"External Dependency Manager"
+	"AR Foundation"
+	"com.unity.xr.management"
+	"com.unity.xr.arfoundation"
+	"XR Simulation"
+	"م"
+	"ح"
+	"Advertisement"
+	"Gizmos"
+	"Scoped Registries"
+]
+searchItemFavorites = [
+]
+savedSearchesSortOrder = 0
+showSavedSearchPanel = false
+hideTabs = false
+expandedQueries = [
+]
+queryBuilder = false
+ignoredProperties = "id;name;classname;imagecontentshash"
+helperWidgetCurrentArea = "all"
+disabledIndexers = ""
+minIndexVariations = 2
+findProviderIndexHelper = true
+itemIconSize = 32

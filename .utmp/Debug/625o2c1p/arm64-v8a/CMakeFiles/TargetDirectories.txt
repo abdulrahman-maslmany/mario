@@ -1,0 +1,5 @@
+E:/mario/.utmp/Debug/625o2c1p/arm64-v8a/CMakeFiles/edit_cache.dir
+E:/mario/.utmp/Debug/625o2c1p/arm64-v8a/CMakeFiles/rebuild_cache.dir
+E:/mario/.utmp/Debug/625o2c1p/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+E:/mario/.utmp/Debug/625o2c1p/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+E:/mario/.utmp/Debug/625o2c1p/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
