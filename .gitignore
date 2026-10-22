@@ -1,17 +1,14 @@
-# Unity Temporary & Build Folders
-[L/l]ibrary/
-[T/t]emp/
-[O/o]bj/
-[B/b]uild/
-[B/b]uilds/
-[L/l]ogs/
-[U/u]ser[S/s]ettings/
-.utmp/
-memory/
+/[Ll]ibrary/
+/[temp]/
+/[Obj]/
+/[Build]/
+/[Builds]/
+/[Logs]/
+/[UserSettings]/
+/[memory]/
 
-# Visual Studio & IDE Files
+# Visual Studio Type files
 .vs/
-.vscode/
 *.csproj
 *.unityproj
 *.sln
@@ -26,11 +23,9 @@ memory/
 *.opendb
 *.VC.db
 
-# Android Keys, Secrets & Large Builds
+# Android Keys & Secrets
 *.keystore
 *.jks
-*.aab
-*.apk
 *.json
 
 # Flutter specific (inside my_app)
